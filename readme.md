@@ -14,7 +14,7 @@
 按以下步骤进行面板文件迁移：
 
     git remote set-url origin https://github.com/besnow/v2board  
-    git checkout Aug_2  
+    git checkout master  
     ./update.sh  
 
 
@@ -24,9 +24,9 @@
     php artisan config:cache
     php artisan horizon:terminate
 
-这个命令是用来克隆一个仓库里的 Aug_2 分支的：
+这个命令是用来克隆一个仓库里的默认分支的：
 
-    git clone -b Aug_2 https://github.com/besnow/v2board.git ./
+    git clone https://github.com/besnow/v2board.git ./
 
 
 ## Demo
