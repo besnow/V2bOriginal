@@ -8,6 +8,10 @@
 - Redis
 - Laravel
 
+'''
+git clone -b Aug_2 https://github.com/besnow/v2board.git ./
+'''
+
 ## Demo
 [Demo](https://demo.v2board.com)
 
