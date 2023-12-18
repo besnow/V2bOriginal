@@ -7,6 +7,7 @@
 - MySQL5.5+
 - Redis
 - Laravel
+- 原版DEV版本号Aug_2
 
 
 ## 原版迁移步骤
