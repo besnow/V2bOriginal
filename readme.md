@@ -8,9 +8,26 @@
 - Redis
 - Laravel
 
-'''
-git clone -b Aug_2 https://github.com/besnow/v2board.git ./
-'''
+
+## 原版迁移步骤
+
+按以下步骤进行面板文件迁移：
+
+    git remote set-url origin https://github.com/besnow/v2board  
+    git checkout Aug_2  
+    ./update.sh  
+
+
+按以下步骤刷新设置缓存，重启队列:
+
+    php artisan config:clear
+    php artisan config:cache
+    php artisan horizon:terminate
+
+这个命令是用来克隆一个仓库里的 Aug_2 分支的：
+
+    git clone -b Aug_2 https://github.com/besnow/v2board.git ./
+
 
 ## Demo
 [Demo](https://demo.v2board.com)
