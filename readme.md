@@ -7,7 +7,7 @@
 - MySQL5.5+
 - Redis
 - Laravel
-- 原版DEV版本号Aug_2
+- 原版DEV版本号:31c5cf1c2b404ddf8ae4fbf743182524f3869f64
 
 
 ## 原版迁移步骤
