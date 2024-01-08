@@ -14,7 +14,7 @@
 
 按以下步骤进行面板文件迁移：
 
-    git remote set-url origin https://github.com/besnow/v2board  
+    git remote set-url origin https://github.com/besnow/V2bOriginal
     git checkout master  
     ./update.sh  
 
@@ -27,7 +27,7 @@
 
 这个命令是用来克隆一个仓库里的默认分支的：
 
-    git clone https://github.com/besnow/v2board.git ./
+    git clone https://github.com/besnow/V2bOriginal.git ./
 
 
 ## V2Board_Tutorial
